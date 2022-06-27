@@ -444,13 +444,14 @@ text-decoration:underline;
 
 .check-text span{
     width: 16px;
+    height: 15px;
     border: 2px solid #212121;
     border-radius: 4px;
     margin-right: 8px;
-    height: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 2px;
 }
 
 
@@ -463,10 +464,6 @@ text-decoration:underline;
     background-color: var(--accent-color);
     border: 0;
     
-}
-
-.check-text span{
-border-radius: 2px;
 }
 
 .input-check:checked + .check-text .check-icon{ 
