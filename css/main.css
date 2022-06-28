@@ -371,6 +371,7 @@ margin-right: 30px;
 
 .modal-field{
 margin-bottom: 10px;
+position: relative;
 }
 
 .input-wrap{
@@ -460,18 +461,21 @@ text-decoration:underline;
 }
 
 
-.input-check:checked + .check-text span{
-    background-color: var(--accent-color);
-    border: 0;
-    
+.input-check{
+    position: absolute;
+    opacity: 0;
 }
+
+
+
 
 .input-check:checked + .check-text .check-icon{ 
     fill: white;
 }
 
-.input-check:focus ..check-text{
-border:1px solid #188CE8;
+
+.input-check:focus + .check-text span {
+    border-color: var(--accent-color);
 }
 
 .check-link:hover{
