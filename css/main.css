@@ -482,6 +482,12 @@ text-decoration:underline;
     text-decoration: none;
 }
 
+.input-check:checked + .check-text span {
+    background-color: var(--accent-color);
+    border: 0;
+}
+
+
 
 /* .check-text::before{
     content: "";
